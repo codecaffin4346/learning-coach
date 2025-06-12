@@ -1,0 +1,32 @@
+/* style.css */
+
+body {
+    background-color: #f7f9fc;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1, h2, h3 {
+    color: #333366;
+}
+
+.stButton>button {
+    background-color: #4a90e2;
+    color: white;
+    font-weight: bold;
+    border-radius: 8px;
+    padding: 0.5em 1em;
+}
+
+.stButton>button:hover {
+    background-color: #357ab7;
+}
+
+.stTextInput>div>div>input {
+    border-radius: 8px;
+    border: 1px solid #cccccc;
+    padding: 0.5em;
+}
+
+.stRadio>div>label {
+    font-weight: 500;
+}
